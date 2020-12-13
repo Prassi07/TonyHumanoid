@@ -1,9 +1,23 @@
-
+%% Program to generate walking trajectories for humanoind robot
+%% Inputs = Time Period(T), Pelvis Distance(2K), Step length(L), Step Height(H)
+%%%
+%% Returns a txt file with array of angles to be inputted into the robot to test the gait
+%%% The file contains lines of angles, each line is the output of the IK
+%%% function, starting with right leg and then left leg. The order is as
+%%% follows :
+%%% "Right Hip Roll, Right Hip Pitch, Right Knee Pitch, Right Ankle Pitch,
+%%% Right Ankle Roll, Left Hip Roll, Left Hip Pitch, Left Knee Pitch, Left Ankle Pitch,
+%%% Left Ankle Roll"
+%%% Based on Equations in the Paper:
+%%% Solving Inverse Kinematics using Geometric Anaylsis on Small-Scale
+%%% Humanoid Robot submitted to IEEE/SICE International Symposium on System
+%%% Integration 2020
+%% Authors: Prasanna Venkatesan K S and Prajwal Rajendra Mahendrakar
 T = 1; %Time Period
 K = 32.5; %Half Pelvis Distance
 L = 70; % Length of the step
 H = 20; %Foot Height
-Zo = 210;
+Zo = 210; %Z plane height, 3-D LIP parameter
 t=0;
 fileID = fopen('angles_generated.txt','w');
 while (t<=T)

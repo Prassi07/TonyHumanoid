@@ -1,4 +1,7 @@
 function  [A]  = compute_dh_matrix(r, alpha, d, theta)
+%%
+%Computes the Denavit-Hartenberg Matrix for given parameters
+%%
 A = eye(4);
 % ROTATION FOR X
 A(1,1) = cos((theta));

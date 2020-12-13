@@ -1,3 +1,4 @@
+%% Initializes the Transform Matrix for the robot using the DH matrix method
 t1=sym('theta1');
 t2=sym('theta2');
 t3=sym('theta3');

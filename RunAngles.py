@@ -1,5 +1,6 @@
 # Author : Prajwal, Prasanna
-# Receievs walking sequence angles from 3D LIP Algorithm
+# Receives walking sequence angles from 3D LIP Algorithm using the 
+# text file generated from TonyGenerateTrajectories.m
 # Converts it to SERVO mapped angles which can be sent to the bot.
 
 import time

@@ -1,3 +1,5 @@
+%%Plots the different generated angles with respect to timestep
+%%Useful to identify abnormalities in the result
 T = importdata('lateralWalk.txt'); 
 t1 = T(:,1);
 t2 = T(:,2);

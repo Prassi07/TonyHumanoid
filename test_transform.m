@@ -1,3 +1,5 @@
+%%Program tests the generated angles and visualizes the transform to
+%%predict anomalies.
 T = importdata('angles_generated.txt'); 
 for i=1:20
     p0=[0;0;210;1];
