@@ -4,11 +4,11 @@
 A 17 DOF Humanoid Robot created as part of the undergraduate Project as a research platform to test different algorithms for humanoid robot. The robot is capable of simple actions like walking and turning. New gaits can be generated using matlab trajectory sequences and the inverse kinematic function. The robot can be controlled serially using an bluetooth device.
 
 Contributors:
-1. Prasanna Venkatesan K S (https://prassi07.github.io)
+1. Prasanna Sriganesh (https://prassi07.github.io)
 2. Prajwal Rajendra Mahendrakar (https://scholar.google.com/citations?user=wZH3lt8AAAAJ&hl=en)
 
 If using this code, please cite
-"Prasanna Venkatesan K S, Prajwal Rajendra Mahendrakar and Rajasekar Mohan, “Solving inverse kinematics using geometric analysis for gait generation in small-sized humanoid robots,” in Proc. IEEE/SICE International Symposium on System Integration(SII), Honolulu, Hawaii, USA, 12th-15th  January 2020, pp. 384–389" 
+"Prasanna Sriganesh, Prajwal Rajendra Mahendrakar and Rajasekar Mohan, “Solving inverse kinematics using geometric analysis for gait generation in small-sized humanoid robots,” in Proc. IEEE/SICE International Symposium on System Integration(SII), Honolulu, Hawaii, USA, 12th-15th  January 2020, pp. 384–389" 
 
 You can check out the project on my website [here](https://prassi07.github.io/projects/tonyhumanoid)
 
